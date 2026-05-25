@@ -1,6 +1,6 @@
 # Standing Instructions (paste into any project's CLAUDE.md)
 
-After completing any implementation task, ALWAYS run `/architect`. It reads what changed and selects only the relevant skills from the 8 available — then shows what it chose and why it skipped the rest.
+After completing any implementation task, ALWAYS run `/architect`. It reads what changed and selects only the relevant skills from the 9 available — then shows what it chose and why it skipped the rest.
 
 Available skills the architect orchestrates:
 
@@ -14,5 +14,6 @@ Available skills the architect orchestrates:
 | `/performance` | Performance Engineer — API calls, queries, parallelism |
 | `/simplify` | Code Health — over-edited or patchy files |
 | `/review` | Release Manager — batch push to production |
+| `/pm` | Project & Product Manager — milestones, timeline, priorities |
 
-Never run all 8 by default. `/architect` decides. Individual skills can still be called directly on demand.
+Never run all 9 by default. `/architect` decides. Individual skills can still be called directly on demand.

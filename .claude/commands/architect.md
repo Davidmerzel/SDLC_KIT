@@ -18,13 +18,14 @@ Read the project context (CLAUDE.md if present, or infer from the file structure
 | `/performance` | New external API calls, database queries, loops over data, file handling, or parallel operations |
 | `/simplify` | A file was edited more than twice this session, or earlier attempts left dead code or redundant logic |
 | `/review` | A batch of multiple features or fixes is ready for production deployment |
+| `/pm` | A milestone is reached, a batch is ready to ship, scope has shifted, or the user asks about progress or priorities |
 
 ## How to respond
 
 1. **State what changed** — one sentence summarising the scope of the task.
 2. **List the skills you will run** — one-line reason for each.
 3. **List the skills you are skipping** — one-line reason for each (transparency builds trust).
-4. **Run the selected skills** in order: verify → swe → ux → security-review → test → performance → simplify → review.
+4. **Run the selected skills** in order: verify → swe → ux → security-review → test → performance → simplify → review → pm.
 
 ## Rules
 
