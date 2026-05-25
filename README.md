@@ -26,6 +26,7 @@ The other 5 skills (`/verify`, `/ux`, `/swe`, `/security-review`, `/simplify`, `
 | `/performance` | Performance Engineer | This repo |
 | `/simplify` | Code Health | Built-in |
 | `/review` | Release Manager | Built-in |
+| `/pm` | Project & Product Manager | This repo |
 
 ## How to apply to a new project
 
